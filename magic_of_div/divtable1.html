@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Using table and div
+        </title>
+        <style>
+            th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                
+            }
+        
+            table{
+                display: inline;
+            }
+            .container1,.container2
+            {
+                display: flex;
+                border: 1px dashed purple;
+                
+                
+            }
+            .table1,.table4{
+                background-image: url(bck1.jpg);
+                 color: white;
+            }
+         
+            .table2,.table3{
+                background-image: url(bck2.jpg);
+            }
+            .table1,.table2,.table3,.table4
+            {
+                padding: 20px;
+                border: 1px dashed green;
+                width: 50%;
+                text-align: center;
+                
+                align-items: center;
+            
+
+            }
+            body{
+                text-align: center;
+                background-color: rgba(30%,40%,25%,0.1);
+            }
+        
+        </style>
+    </head>
+    <body>
+        <h1>Programming languages</h1>
+        <div class="container1">
+            <div class="table1">
+                <h2>C programming</h2>
+                <table id="t1">
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Topic name</th>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Structure</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Union</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table2">
+                <h2>Java programming</h2>
+                <table>
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Topic name</th>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Classes and objects</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Polymorphism</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="table3">
+                <h2>Python programming</h2>
+                <table >
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Topic name</th>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Dictionary</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Tuple</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table4">
+                <h2>SQL programming</h2>
+                <table id="t4">
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Topic name</th>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>CRUD operations</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Triggers</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+    </body>
+</html>
