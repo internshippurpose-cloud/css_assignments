@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load HTML into DIV</title>
+</head>
+<body>
+    <button onclick="loadContent('navbar1.html')">Load Home Content</button>
+    <div id="content">
+        <!-- Content will be loaded here -->
+    </div>
+
+    <script>
+        function loadContent(filePath) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('content').innerHTML = html;
+                })
+                .catch(error => console.error('Error loading HTML:', error));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Horizontal Nav Bar using flex
+        </title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                padding: 60px;
+                text-align: center;
+            }
+            ul 
+            {
+                display: flex;
+                background-color: grey;
+                text-align: center;
+                font-size: 150%;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                position: fixed;
+                overflow: hidden;
+                width: 100%;
+                /*justify-content: center;*/
+            }
+            ul li{
+                border-right: 2px solid antiquewhite;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+                padding: 10px 10px;
+                color: antiquewhite;
+                background-color: gray;
+            }
+            li a:hover
+            {
+                background-color: antiquewhite;
+                color: gray;
+            }
+            iframe{
+                border: none;
+            }
+            ul li:first-child
+            {
+                border-right:2px solid antiquewhite ;
+            }
+            ul li:last-of-type
+            {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="gold.html" target="display">Gold</a></li>
+            <li><a href="silver.html" target="display">Silver</a></li>
+            <li><a href="copper.html" target="display">Copper</a></li>
+            <li><a href="platinum.html" target="display">Platinum</a></li>
+            <li><a href="zinc.html" target="display">Zinc</a></li>
+        </ul>
+        <h1>Demonstration of horizontal nav bar using flex box</h1>
+        <iframe name="display" width="100%" height="100%"></iframe>
+
+    </body>
+</html>
