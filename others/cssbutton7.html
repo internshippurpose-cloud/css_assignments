@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS button --- Animated button press
+        </title>
+        <style>
+            button{
+                background-color:black;
+                color: azure;
+                padding: 10px 10px;
+                border: none;
+                text-align: center;
+                display: inline-block;
+                border-radius: 15px;
+                cursor: pointer;
+                font-size: 50px;
+                box-shadow:20px 20px lightblue;
+            }
+            .b1:active
+            {
+                box-shadow: 20px 20px 20px 10px gray;
+                transform: translateY(10px);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Button press effect</h1>
+        <button class="b1">Click Click</button>
+    </body>
+</html>

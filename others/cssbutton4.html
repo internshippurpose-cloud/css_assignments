@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          CSS Buttons --- Adding shadow
+        </title>
+        <style>
+            button
+            {
+                background-color: blueviolet;
+                color: aliceblue;
+                padding: 15px 15px;
+                margin: 20px;
+                text-align: center;
+                border: none;
+                cursor: pointer;
+                display: inline-block;
+            }
+            .b1
+            {
+                box-shadow: 10px 10px 10px purple;
+            }
+            .b2:hover
+            {
+                box-shadow: 50px 50px 50px 35px purple ;
+            }
+            .b3
+            {
+                box-shadow: 20px 20px 20px 20px lightcyan inset;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Adding shadow to button</h1>
+        <button class="b1">Shadow Button</button>
+        <button class="b2">Shadow on hover</button>
+        <button class="b3">Shadow inset</button>
+    </body>
+</html>
