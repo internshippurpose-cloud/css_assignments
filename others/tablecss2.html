@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Table css --- zebra strips
+        </title>
+        <style>
+            table.even{
+                font-size: larger;
+                width: 50%;
+                font-family: 'Comic Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            table.even tr:nth-child(even)
+            {
+                background-color: aquamarine;
+            }
+            table.odd
+            {
+                font-size: 200%;
+                width: 70%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            table.odd tr:nth-child(odd)
+            {
+                background-color: bisque;
+            }
+             table.evenodd
+            {
+                font-size: 90%;
+                width: 60%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            table.evenodd tr:nth-child(odd)
+            {
+                background-color: darkgrey;
+            }
+            table.evenodd tr:nth-child(even)
+            {
+                background-color: honeydew;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Zebra strips--- even</h1>
+        <table class="even">
+            <tr>
+                <th>Sr no</th>
+                <th>Product Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Pencil</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>102</td>
+                <td>Pen</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>103</td>
+                <td>Notebook</td>
+                <td>Rs. 50</td>
+            </tr>
+            
+            <tr>
+                <td>104</td>
+                <td>Sketch Pens</td>
+                <td>Rs. 100</td>
+            </tr>
+        </table>
+        <br>
+         <h1>Zebra strips--- odd rows</h1>
+        <table class="odd">
+            <tr>
+                <th>Sr no</th>
+                <th>Product Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Pencil</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>102</td>
+                <td>Pen</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>103</td>
+                <td>Notebook</td>
+                <td>Rs. 50</td>
+            </tr>
+            
+            <tr>
+                <td>104</td>
+                <td>Sketch Pens</td>
+                <td>Rs. 100</td>
+            </tr>
+        </table>
+        <br>
+        <h1>Even odd zebra strips</h1>
+          <table class="evenodd">
+            <tr>
+                <th>Sr no</th>
+                <th>Product Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Pencil</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>102</td>
+                <td>Pen</td>
+                <td>Rs. 10</td>
+            </tr>
+            
+            <tr>
+                <td>103</td>
+                <td>Notebook</td>
+                <td>Rs. 50</td>
+            </tr>
+            
+            <tr>
+                <td>104</td>
+                <td>Sketch Pens</td>
+                <td>Rs. 100</td>
+            </tr>
+        </table>
+    </body>
+</html>

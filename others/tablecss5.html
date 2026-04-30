@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Table css --- Horizontal dividers hover
+        </title>
+        <style>
+            table{
+                border-collapse: collapse;
+                width: 100%;
+                font-size: 200%;
+            }
+           tbody tr
+            {
+                border-bottom: 2px dashed black;
+            }
+            tr:hover:not(.for_th)
+            {
+                background-color: black;
+                color: azure;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Horizontal dividers table hover effect</h1>
+        <table>
+            <thead>
+                <tr class="for_th">
+                   <th>Name</th>
+                   <th>Subject</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AAA</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>BBB</td>
+                    <td>Mathematics</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Table CSS --- cross strips
+        </title>
+        <style>
+            table
+            {
+                font-size: 150%;
+                width: 50%;
+                text-align: center;
+                padding: 20px;
+            }
+            td:nth-child(even),th:nth-child(even)
+            {
+                background-color:rgba(400, 212,300,0.4)
+            }
+            tr:nth-child(even)
+            {
+                background-color: antiquewhite;
+            }
+            table,th,td{
+                border-collapse: collapse;
+
+            }
+                    
+        </style>
+    </head>
+    <body>
+        <h1>Cross zebra strips</h1>
+        <table>
+            <caption><br><b>Students List</b></caption><br>
+            <tr>
+                <th>Roll no</th>
+                <th>Name</th>
+                <th> Marks</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>200</td>
+                <td>ABC</td>
+                <td>78.9</td>
+                <td>18</td>
+            </tr>
+             <tr>
+                <td>201</td>
+                <td>AAA</td>
+                <td>80.54</td>
+                <td>19</td>
+            </tr>
+             <tr>
+                <td>202</td>
+                <td>BBB</td>
+                <td>81.5</td>
+                <td>19</td>
+            </tr>
+             <tr>
+                <td>203</td>
+                <td>CCC</td>
+                <td>99.1</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </body>
+</html>
