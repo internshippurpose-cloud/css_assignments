@@ -1,0 +1,107 @@
+body{
+  background-color: rgba(222,184,135,0.5);
+  
+}
+header{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,BurlyWood,SandyBrown	);
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: min-content;
+}
+footer
+{
+  display:inline-block;
+  text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,BurlyWood,SandyBrown	);
+    width: 100%;
+
+}
+
+#ctitle{
+    text-align: center;
+    position:fixed;
+    background-color: rgb(216,191,216);
+    margin:0;
+    padding:0;
+    width: 100%;
+    
+}
+hr{
+    height: 10px;
+    width: 70%;
+    background-color: black;
+    box-shadow: 2px 2px gray;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve
+          {
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid black;
+            width: 22%;
+            height: 300px;
+            float: left;
+            
+          }
+          #cname
+          {
+            background-color: black;
+            color: azure;
+            padding:17px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          #one
+          {
+            background-color: #EE82EE;
+          }
+          #two
+          {
+            background-color: #DA70D6;
+          }
+          #three
+          {
+            background-color: #FF00FF;
+          }
+          #four
+          {
+            background-color: #BA55D3;
+          }
+          #five
+          {
+            background-color: #9370DB;
+          }
+          #six
+          {
+            background-color: #8A2BE2;
+          }
+          #seven
+          {
+            background-color: #9400D3;
+          }
+          #eight
+          {
+            background-color: #9932CC;
+          }
+          #nine
+          {
+            background-color: #8B008B;
+          }
+          #ten
+          {
+            background-color: #800080;
+          }
+          #eleven
+          {
+            background-color: #663399;
+          }
+          #twelve
+          {
+            background-color: #4B0082;
+          }
